@@ -1,0 +1,18 @@
+{
+ "escalate_score": 75,
+ "review_score": 40,
+ "escalate_money_brl": 500.0,
+ "base_score": {
+  "B1": 10,
+  "B2": 45,
+  "B3": 40,
+  "B4": 8,
+  "B5": 5,
+  "B6": 45,
+  "B7": 30,
+  "B8": 25
+ },
+ "close_date": "2018-01-05",
+ "tolerance_brl": 0.01,
+ "note": "Score = sum of break bases (+ B1 delta / B4 days / B5 days extras) + age (0-10) + value (0/5/10), capped at 100."
+}

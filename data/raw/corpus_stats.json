@@ -1,0 +1,18 @@
+{
+ "orders": 99441,
+ "payments_rows": 103886,
+ "items_rows": 112650,
+ "breaks_by_code": {
+  "B1": 637,
+  "B2": 622,
+  "B3": 611,
+  "B4": 6534,
+  "B5": 5662,
+  "B6": 1
+ },
+ "duplicate_payment_orders": 0,
+ "orphan_payments": 0,
+ "orphan_items": 0,
+ "source": "Olist Brazilian E-Commerce (Kaggle, CC BY 4.0) via github.com/olist/work-at-olist-data",
+ "window_note": "Full corpus spans Sep 2016 \u2013 Oct 2018; the desk replays Q4 2017."
+}

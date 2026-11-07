@@ -1,0 +1,1018 @@
+{
+ "orders": [
+  {
+   "order": {
+    "order_id": "466f73a6394012b9c7cfe801be0c04c3",
+    "customer_id": "df52278178b30e303f9b729c40273000",
+    "customer_state": "MG",
+    "purchase_date": "2017-12-05",
+    "approved_date": "2017-12-06",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 18,
+      "value": 368.7
+     }
+    ],
+    "items": [
+     {
+      "price": 350.0,
+      "freight": 350.0,
+      "seller_id": "2a7dc43cecabf23403078e2188437d1d",
+      "shipping_limit_date": "2017-12-12"
+     }
+    ],
+    "delivered_carrier_date": "2017-12-07",
+    "delivered_customer_date": "2017-12-12",
+    "estimated_delivery_date": "2017-12-28"
+   },
+   "expected_codes": [
+    "B1"
+   ],
+   "expected_route": "REVIEW",
+   "expected_action": "POST_CORRECTION",
+   "note": "B1 big underpayment, largest Q4 delta"
+  },
+  {
+   "order": {
+    "order_id": "f06059b8f4dc49c4f76378b7715a63b0",
+    "customer_id": "65f1b4bd7d1fdc72609cf60263022c98",
+    "customer_state": "SP",
+    "purchase_date": "2017-11-03",
+    "approved_date": "2017-11-03",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 4,
+      "value": 307.26
+     }
+    ],
+    "items": [
+     {
+      "price": 294.0,
+      "freight": 294.0,
+      "seller_id": "2a7dc43cecabf23403078e2188437d1d",
+      "shipping_limit_date": "2017-11-09"
+     }
+    ],
+    "delivered_carrier_date": "2017-11-08",
+    "delivered_customer_date": "2017-11-16",
+    "estimated_delivery_date": "2017-11-16"
+   },
+   "expected_codes": [
+    "B1"
+   ],
+   "expected_route": "REVIEW",
+   "expected_action": "POST_CORRECTION",
+   "note": "B1 big underpayment, second largest Q4 delta"
+  },
+  {
+   "order": {
+    "order_id": "08fec9b7a19902c2485f6f104e547f52",
+    "customer_id": "5c1c8769cc8b6dbcc64964d7aceaff5b",
+    "customer_state": "SP",
+    "purchase_date": "2017-12-06",
+    "approved_date": "2017-12-06",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 2,
+      "value": 27.68
+     }
+    ],
+    "items": [
+     {
+      "price": 19.9,
+      "freight": 19.9,
+      "seller_id": "2a7dc43cecabf23403078e2188437d1d",
+      "shipping_limit_date": "2017-12-12"
+     }
+    ],
+    "delivered_carrier_date": "2017-12-11",
+    "delivered_customer_date": "2017-12-14",
+    "estimated_delivery_date": "2017-12-22"
+   },
+   "expected_codes": [
+    "B1"
+   ],
+   "expected_route": "REVIEW",
+   "expected_action": "POST_CORRECTION",
+   "note": "B1 medium underpayment R$10-50"
+  },
+  {
+   "order": {
+    "order_id": "648a268c494bbf8c97c03ec64c2ff4d3",
+    "customer_id": "1a4afc7f367d41bd2edb6fb7f6e7dc8c",
+    "customer_state": "DF",
+    "purchase_date": "2017-11-02",
+    "approved_date": "2017-11-04",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "boleto",
+      "sequential": 1,
+      "installments": 1,
+      "value": 137.47
+     }
+    ],
+    "items": [
+     {
+      "price": 59.9,
+      "freight": 8.84,
+      "seller_id": "1f50f920176fa81dab994f9023523100",
+      "shipping_limit_date": "2017-11-09"
+     },
+     {
+      "price": 59.9,
+      "freight": 8.84,
+      "seller_id": "1f50f920176fa81dab994f9023523100",
+      "shipping_limit_date": "2017-11-09"
+     }
+    ],
+    "delivered_carrier_date": "2017-11-08",
+    "delivered_customer_date": "2017-11-16",
+    "estimated_delivery_date": "2017-11-27"
+   },
+   "expected_codes": [
+    "B1"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "POST_CORRECTION",
+   "note": "B1 smallest nonzero mismatch in Q4 (tolerance edge)"
+  },
+  {
+   "order": {
+    "order_id": "32720c0c8b42f4c2cdb07cee5ec2444b",
+    "customer_id": "8df8c71565b1b7c5d8bec24a7052ba2d",
+    "customer_state": "MS",
+    "purchase_date": "2017-11-24",
+    "approved_date": "2017-11-25",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 12,
+      "value": 259.59
+     }
+    ],
+    "items": [
+     {
+      "price": 139.0,
+      "freight": 85.75,
+      "seller_id": "c747d5b92c7648417faea95d36d763e8",
+      "shipping_limit_date": "2017-11-30"
+     }
+    ],
+    "delivered_carrier_date": "2017-11-28",
+    "delivered_customer_date": "2017-12-07",
+    "estimated_delivery_date": "2017-12-22"
+   },
+   "expected_codes": [
+    "B1"
+   ],
+   "expected_route": "REVIEW",
+   "expected_action": "POST_CORRECTION",
+   "note": "B1 overpayment (customer paid more than invoiced)"
+  },
+  {
+   "order": {
+    "order_id": "6ef587afa4703fd874edb7ade8efc7b0",
+    "customer_id": "e41cd8b93481d35a00680e774858358c",
+    "customer_state": "SP",
+    "purchase_date": "2017-11-18",
+    "approved_date": "2017-11-21",
+    "status": "canceled",
+    "payments": [
+     {
+      "type": "boleto",
+      "sequential": 1,
+      "installments": 1,
+      "value": 20.23
+     }
+    ],
+    "items": [
+     {
+      "price": 8.5,
+      "freight": 11.73,
+      "seller_id": "c1d1ebb4745cc43cb6f05e9c8a705c9a",
+      "shipping_limit_date": "2017-11-27"
+     }
+    ],
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2017-12-01"
+   },
+   "expected_codes": [
+    "B2"
+   ],
+   "expected_route": "REVIEW",
+   "expected_action": "ISSUE_REFUND",
+   "note": "B2 smallest canceled refund"
+  },
+  {
+   "order": {
+    "order_id": "00d0ffd14774da775ac832ba8520510f",
+    "customer_id": "a2f3de2a0a84803cef018776a2e76c9b",
+    "customer_state": "SP",
+    "purchase_date": "2017-12-23",
+    "approved_date": null,
+    "status": "canceled",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 5,
+      "value": 134.49
+     }
+    ],
+    "items": [],
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2018-01-19"
+   },
+   "expected_codes": [
+    "B2"
+   ],
+   "expected_route": "REVIEW",
+   "expected_action": "ISSUE_REFUND",
+   "note": "B2 median canceled refund"
+  },
+  {
+   "order": {
+    "order_id": "fd4c3a2912e854eedd463b329540da4b",
+    "customer_id": "d2fdd1d3725bccaa0900e360a985398f",
+    "customer_state": "PR",
+    "purchase_date": "2017-10-28",
+    "approved_date": null,
+    "status": "canceled",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 1,
+      "value": 1395.76
+     }
+    ],
+    "items": [],
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2017-11-21"
+   },
+   "expected_codes": [
+    "B2"
+   ],
+   "expected_route": "ESCALATE",
+   "expected_action": "ISSUE_REFUND",
+   "note": "B2 largest canceled refund"
+  },
+  {
+   "order": {
+    "order_id": "19bbda1f882b3aeddba973e935519905",
+    "customer_id": "e874220095cbbc1cca6c70cc3c6ab8b8",
+    "customer_state": "SP",
+    "purchase_date": "2017-11-03",
+    "approved_date": "2017-11-03",
+    "status": "unavailable",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 1,
+      "value": 18.37
+     }
+    ],
+    "items": [],
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2017-11-24"
+   },
+   "expected_codes": [
+    "B3"
+   ],
+   "expected_route": "REVIEW",
+   "expected_action": "CHASE_WAREHOUSE",
+   "note": "B3 smallest paid-not-shipped"
+  },
+  {
+   "order": {
+    "order_id": "a8ebe927b1b85cc950bba001cac770f7",
+    "customer_id": "5dfc4ad0a5d369a091d3f7f011ff8cad",
+    "customer_state": "SP",
+    "purchase_date": "2017-12-06",
+    "approved_date": "2017-12-06",
+    "status": "unavailable",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 7,
+      "value": 101.73
+     }
+    ],
+    "items": [],
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2017-12-22"
+   },
+   "expected_codes": [
+    "B3"
+   ],
+   "expected_route": "REVIEW",
+   "expected_action": "CHASE_WAREHOUSE",
+   "note": "B3 median paid-not-shipped"
+  },
+  {
+   "order": {
+    "order_id": "51375acfdef4d742df94640aa60d385b",
+    "customer_id": "7ce1d85a1d02f0b8e37e552259c8fb79",
+    "customer_state": "CE",
+    "purchase_date": "2017-10-06",
+    "approved_date": "2017-10-06",
+    "status": "unavailable",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 10,
+      "value": 1643.64
+     }
+    ],
+    "items": [],
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2017-11-06"
+   },
+   "expected_codes": [
+    "B3"
+   ],
+   "expected_route": "ESCALATE",
+   "expected_action": "CHASE_WAREHOUSE",
+   "note": "B3 largest paid-not-shipped"
+  },
+  {
+   "order": {
+    "order_id": "6f36c999f8ef8d1a3a999079a5b637aa",
+    "customer_id": "ac055528f5a69cba5e02d73ad1ee9a74",
+    "customer_state": "SP",
+    "purchase_date": "2017-12-16",
+    "approved_date": "2017-12-16",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 10,
+      "value": 262.86
+     }
+    ],
+    "items": [
+     {
+      "price": 153.0,
+      "freight": 18.57,
+      "seller_id": "4a3ca9315b744ce9f8e9374361493884",
+      "shipping_limit_date": "2017-12-21"
+     },
+     {
+      "price": 77.0,
+      "freight": 14.29,
+      "seller_id": "a3e9a2c700480d9bb01fba070ba80a0e",
+      "shipping_limit_date": "2017-12-21"
+     }
+    ],
+    "delivered_carrier_date": "2017-12-18",
+    "delivered_customer_date": "2018-01-12",
+    "estimated_delivery_date": "2018-01-11"
+   },
+   "expected_codes": [
+    "B4"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "LOG_SLA_BREACH",
+   "note": "B4 shortest late delivery"
+  },
+  {
+   "order": {
+    "order_id": "779894f35a3337987b2d76170506c25d",
+    "customer_id": "3e34c35ca425e415dce71af4142680c4",
+    "customer_state": "ES",
+    "purchase_date": "2017-10-16",
+    "approved_date": "2017-10-16",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 5,
+      "value": 111.02
+     }
+    ],
+    "items": [
+     {
+      "price": 89.9,
+      "freight": 21.12,
+      "seller_id": "4a3ca9315b744ce9f8e9374361493884",
+      "shipping_limit_date": "2017-10-20"
+     }
+    ],
+    "delivered_carrier_date": "2017-10-17",
+    "delivered_customer_date": "2017-11-13",
+    "estimated_delivery_date": "2017-11-06"
+   },
+   "expected_codes": [
+    "B4"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "LOG_SLA_BREACH",
+   "note": "B4 median late delivery"
+  },
+  {
+   "order": {
+    "order_id": "ed8e9faf1b75f43ee027103957135663",
+    "customer_id": "14fcb7be0e0a5868f190e1cda895d6fa",
+    "customer_state": "SP",
+    "purchase_date": "2017-11-29",
+    "approved_date": "2017-12-01",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "boleto",
+      "sequential": 1,
+      "installments": 1,
+      "value": 85.82
+     }
+    ],
+    "items": [
+     {
+      "price": 73.8,
+      "freight": 12.02,
+      "seller_id": "6a8b085f816a1f75f92dbac6eb545f8f",
+      "shipping_limit_date": "2017-12-07"
+     }
+    ],
+    "delivered_carrier_date": "2017-12-04",
+    "delivered_customer_date": "2018-05-21",
+    "estimated_delivery_date": "2017-12-19"
+   },
+   "expected_codes": [
+    "B4"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "LOG_SLA_BREACH",
+   "note": "B4 longest late delivery"
+  },
+  {
+   "order": {
+    "order_id": "0dad6beca7ed0e352668498c29089900",
+    "customer_id": "2528510465c7572dedee4431a7d52e08",
+    "customer_state": "SP",
+    "purchase_date": "2017-12-02",
+    "approved_date": "2017-12-02",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 6,
+      "value": 110.89
+     }
+    ],
+    "items": [
+     {
+      "price": 98.7,
+      "freight": 12.19,
+      "seller_id": "e5e33c0d8e7e002f398f5dc4cbbb338f",
+      "shipping_limit_date": "2017-12-07"
+     }
+    ],
+    "delivered_carrier_date": "2017-12-08",
+    "delivered_customer_date": "2017-12-13",
+    "estimated_delivery_date": "2017-12-27"
+   },
+   "expected_codes": [
+    "B5"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "LOG_SLA_BREACH",
+   "note": "B5 shortest ship-limit breach"
+  },
+  {
+   "order": {
+    "order_id": "b1501234c007ae50246518bde6945cf6",
+    "customer_id": "6869e1cfb26372f96014ea73e3cf0476",
+    "customer_state": "SP",
+    "purchase_date": "2017-12-12",
+    "approved_date": "2017-12-12",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 5,
+      "value": 548.03
+     }
+    ],
+    "items": [
+     {
+      "price": 479.9,
+      "freight": 68.13,
+      "seller_id": "b2ba3715d723d245138f291a6fe42594",
+      "shipping_limit_date": "2017-12-18"
+     }
+    ],
+    "delivered_carrier_date": "2017-12-21",
+    "delivered_customer_date": "2017-12-27",
+    "estimated_delivery_date": "2018-01-05"
+   },
+   "expected_codes": [
+    "B5"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "LOG_SLA_BREACH",
+   "note": "B5 median ship-limit breach"
+  },
+  {
+   "order": {
+    "order_id": "da81fbc27b55e0f3d2813cf2078dc780",
+    "customer_id": "9cb739dc712ebd193e4eb94f3aeb8d20",
+    "customer_state": "RJ",
+    "purchase_date": "2017-11-14",
+    "approved_date": "2017-11-14",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 10,
+      "value": 1755.35
+     }
+    ],
+    "items": [
+     {
+      "price": 1699.0,
+      "freight": 56.35,
+      "seller_id": "5d378b73ab7dd6f0418d743e5dcb0bd1",
+      "shipping_limit_date": "2017-11-23"
+     }
+    ],
+    "delivered_carrier_date": "2018-03-20",
+    "delivered_customer_date": "2018-03-21",
+    "estimated_delivery_date": "2017-12-11"
+   },
+   "expected_codes": [
+    "B4",
+    "B5"
+   ],
+   "expected_route": "REVIEW",
+   "expected_action": "LOG_SLA_BREACH",
+   "note": "B5 longest ship-limit breach"
+  },
+  {
+   "order": {
+    "order_id": "bfbd0f9bdef84302105ad712db648a6c",
+    "customer_id": "86dc2ffce2dfff336de2f386a786e574",
+    "customer_state": "SP",
+    "purchase_date": "2016-09-15",
+    "approved_date": "2016-09-15",
+    "status": "delivered",
+    "payments": [],
+    "items": [
+     {
+      "price": 44.99,
+      "freight": 2.83,
+      "seller_id": "ecccfa2bb93b34a3bf033cc5d1dcdc69",
+      "shipping_limit_date": "2016-09-19"
+     },
+     {
+      "price": 44.99,
+      "freight": 2.83,
+      "seller_id": "ecccfa2bb93b34a3bf033cc5d1dcdc69",
+      "shipping_limit_date": "2016-09-19"
+     },
+     {
+      "price": 44.99,
+      "freight": 2.83,
+      "seller_id": "ecccfa2bb93b34a3bf033cc5d1dcdc69",
+      "shipping_limit_date": "2016-09-19"
+     }
+    ],
+    "delivered_carrier_date": "2016-11-07",
+    "delivered_customer_date": "2016-11-09",
+    "estimated_delivery_date": "2016-10-04"
+   },
+   "expected_codes": [
+    "B4",
+    "B5",
+    "B6"
+   ],
+   "expected_route": "ESCALATE",
+   "expected_action": "COLLECT_OR_WRITE_OFF",
+   "note": "B6 the one delivered-unpaid order in the corpus"
+  },
+  {
+   "order": {
+    "order_id": "00d8d65b666158b633f96054d31af43b",
+    "customer_id": "5e98d1f8f0534c460557d71961a7f10a",
+    "customer_state": "GO",
+    "purchase_date": "2017-10-13",
+    "approved_date": "2017-10-17",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "boleto",
+      "sequential": 1,
+      "installments": 1,
+      "value": 65.44
+     },
+     {
+      "type": "boleto",
+      "sequential": 1,
+      "installments": 1,
+      "value": 65.44
+     }
+    ],
+    "items": [
+     {
+      "price": 94.9,
+      "freight": 35.98,
+      "seller_id": "f8201cab383e484733266d1906e2fdfa",
+      "shipping_limit_date": "2017-10-23"
+     }
+    ],
+    "delivered_carrier_date": "2017-10-18",
+    "delivered_customer_date": "2017-11-07",
+    "estimated_delivery_date": "2017-11-07"
+   },
+   "expected_codes": [
+    "B7"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "REVERSE_DUPLICATE",
+   "note": "B7 SYNTHETIC: duplicated payment sequence, same total (no real case in corpus)"
+  },
+  {
+   "order": {
+    "order_id": "00d8d65b666158b633f96054d31af43b",
+    "customer_id": "5e98d1f8f0534c460557d71961a7f10a",
+    "customer_state": "GO",
+    "purchase_date": "2017-10-13",
+    "approved_date": "2017-10-17",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "boleto",
+      "sequential": 1,
+      "installments": 1,
+      "value": 130.88
+     }
+    ],
+    "items": [
+     {
+      "price": 94.9,
+      "freight": 35.98,
+      "seller_id": "f8201cab383e484733266d1906e2fdfa",
+      "shipping_limit_date": "2017-10-23"
+     }
+    ],
+    "delivered_carrier_date": "2017-10-18",
+    "delivered_customer_date": "2017-11-07",
+    "estimated_delivery_date": "2017-11-07",
+    "orphan": true
+   },
+   "expected_codes": [
+    "B8"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "TRACE_ORPHAN",
+   "note": "B8 SYNTHETIC: orphan record flag (no real case in corpus)"
+  },
+  {
+   "order": {
+    "order_id": "00d8d65b666158b633f96054d31af43b",
+    "customer_id": "5e98d1f8f0534c460557d71961a7f10a",
+    "customer_state": "GO",
+    "purchase_date": "2017-10-13",
+    "approved_date": "2017-10-17",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "boleto",
+      "sequential": 1,
+      "installments": 1,
+      "value": 130.88
+     }
+    ],
+    "items": [
+     {
+      "price": 94.9,
+      "freight": 35.98,
+      "seller_id": "f8201cab383e484733266d1906e2fdfa",
+      "shipping_limit_date": "2017-10-23"
+     }
+    ],
+    "delivered_carrier_date": "2017-10-18",
+    "delivered_customer_date": "2017-11-07",
+    "estimated_delivery_date": "2017-11-07"
+   },
+   "expected_codes": [],
+   "expected_route": "MONITOR",
+   "expected_action": "NO_ACTION",
+   "note": "CLEAN single payment, single item, exact, on time"
+  },
+  {
+   "order": {
+    "order_id": "27587cc5a5f975239e49460102252868",
+    "customer_id": "2b37acd5f8df4d3e14df1c3d75b8884d",
+    "customer_state": "RJ",
+    "purchase_date": "2017-12-01",
+    "approved_date": "2017-12-01",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "voucher",
+      "sequential": 3,
+      "installments": 1,
+      "value": 64.59
+     },
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 1,
+      "value": 31.83
+     },
+     {
+      "type": "voucher",
+      "sequential": 2,
+      "installments": 1,
+      "value": 24.75
+     }
+    ],
+    "items": [
+     {
+      "price": 99.98,
+      "freight": 21.19,
+      "seller_id": "e99e927c81e3f51739c94fcdfca9f10f",
+      "shipping_limit_date": "2017-12-07"
+     }
+    ],
+    "delivered_carrier_date": "2017-12-01",
+    "delivered_customer_date": "2017-12-28",
+    "estimated_delivery_date": "2017-12-28"
+   },
+   "expected_codes": [],
+   "expected_route": "MONITOR",
+   "expected_action": "NO_ACTION",
+   "note": "CLEAN multi-installment payments, exact, on time"
+  },
+  {
+   "order": {
+    "order_id": "13b8bebe558b8424a4ccf23df4c01f77",
+    "customer_id": "cfabc333204cd9e25417b1561ffbec21",
+    "customer_state": "MA",
+    "purchase_date": "2017-10-29",
+    "approved_date": "2017-10-29",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 8,
+      "value": 233.4
+     }
+    ],
+    "items": [
+     {
+      "price": 39.9,
+      "freight": 37.9,
+      "seller_id": "b14db04aa7881970e83ffa9426897925",
+      "shipping_limit_date": "2017-11-03"
+     },
+     {
+      "price": 39.9,
+      "freight": 37.9,
+      "seller_id": "b14db04aa7881970e83ffa9426897925",
+      "shipping_limit_date": "2017-11-03"
+     },
+     {
+      "price": 39.9,
+      "freight": 37.9,
+      "seller_id": "b14db04aa7881970e83ffa9426897925",
+      "shipping_limit_date": "2017-11-03"
+     }
+    ],
+    "delivered_carrier_date": "2017-11-03",
+    "delivered_customer_date": "2017-11-23",
+    "estimated_delivery_date": "2017-11-23"
+   },
+   "expected_codes": [],
+   "expected_route": "MONITOR",
+   "expected_action": "NO_ACTION",
+   "note": "CLEAN multi-item order, exact, on time"
+  },
+  {
+   "order": {
+    "order_id": "00b1cb0320190ca0daa2c88b35206009",
+    "customer_id": "3532ba38a3fd242259a514ac2b6ae6b6",
+    "customer_state": "SP",
+    "purchase_date": "2018-08-28",
+    "approved_date": null,
+    "status": "canceled",
+    "payments": [
+     {
+      "type": "not_defined",
+      "sequential": 1,
+      "installments": 1,
+      "value": 0.0
+     }
+    ],
+    "items": [],
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2018-09-12"
+   },
+   "expected_codes": [],
+   "expected_route": "MONITOR",
+   "expected_action": "NO_ACTION",
+   "note": "CLEAN canceled, nothing captured (no refund owed; outside Q4 \u2014 only 3 such orders exist in the corpus)"
+  },
+  {
+   "order": {
+    "order_id": "021dac6e3120485db6a77474aa21b979",
+    "customer_id": "c40f7f00e91eb8a0da1e58484380a796",
+    "customer_state": "PR",
+    "purchase_date": "2017-11-24",
+    "approved_date": "2017-11-25",
+    "status": "invoiced",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 1,
+      "value": 534.36
+     }
+    ],
+    "items": [
+     {
+      "price": 479.0,
+      "freight": 55.36,
+      "seller_id": "8b87cd0d43d49b9bdf40f56229364d59",
+      "shipping_limit_date": "2017-11-30"
+     }
+    ],
+    "delivered_carrier_date": null,
+    "delivered_customer_date": null,
+    "estimated_delivery_date": "2017-12-15"
+   },
+   "expected_codes": [],
+   "expected_route": "MONITOR",
+   "expected_action": "NO_ACTION",
+   "note": "CLEAN in transit at close, amounts agree (no delivery dates yet)"
+  },
+  {
+   "order": {
+    "order_id": "38e47cf95d95719dfbececfd1cfde0cc",
+    "customer_id": "32bb2b4ece47b57042dc4c883537f705",
+    "customer_state": "RJ",
+    "purchase_date": "2017-10-31",
+    "approved_date": "2017-11-01",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 3,
+      "value": 324.55
+     }
+    ],
+    "items": [
+     {
+      "price": 143.0,
+      "freight": 19.28,
+      "seller_id": "2dee2ce60de9709b1a24083217181a1f",
+      "shipping_limit_date": "2017-11-08"
+     },
+     {
+      "price": 143.0,
+      "freight": 19.28,
+      "seller_id": "2dee2ce60de9709b1a24083217181a1f",
+      "shipping_limit_date": "2017-11-08"
+     }
+    ],
+    "delivered_carrier_date": "2017-11-03",
+    "delivered_customer_date": "2017-12-01",
+    "estimated_delivery_date": "2017-11-27"
+   },
+   "expected_codes": [
+    "B1",
+    "B4"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "POST_CORRECTION",
+   "note": "MULTI B1+B4: amount mismatch and late delivery"
+  },
+  {
+   "order": {
+    "order_id": "0ca8999f0176e37f35b6e49a9b2569da",
+    "customer_id": "750f02af7b06bb81d84d3e44b9afc6d3",
+    "customer_state": "SP",
+    "purchase_date": "2017-10-06",
+    "approved_date": "2017-10-07",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 2,
+      "value": 98.8
+     }
+    ],
+    "items": [
+     {
+      "price": 7.79,
+      "freight": 8.85,
+      "seller_id": "38e6dada03429a47197d5d584d793b41",
+      "shipping_limit_date": "2017-10-13"
+     },
+     {
+      "price": 14.01,
+      "freight": 8.86,
+      "seller_id": "38e6dada03429a47197d5d584d793b41",
+      "shipping_limit_date": "2017-10-13"
+     },
+     {
+      "price": 15.36,
+      "freight": 4.43,
+      "seller_id": "38e6dada03429a47197d5d584d793b41",
+      "shipping_limit_date": "2017-10-13"
+     },
+     {
+      "price": 14.01,
+      "freight": 8.86,
+      "seller_id": "38e6dada03429a47197d5d584d793b41",
+      "shipping_limit_date": "2017-10-13"
+     },
+     {
+      "price": 7.79,
+      "freight": 8.85,
+      "seller_id": "38e6dada03429a47197d5d584d793b41",
+      "shipping_limit_date": "2017-10-13"
+     }
+    ],
+    "delivered_carrier_date": "2017-10-20",
+    "delivered_customer_date": "2017-10-24",
+    "estimated_delivery_date": "2017-10-24"
+   },
+   "expected_codes": [
+    "B1",
+    "B5"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "POST_CORRECTION",
+   "note": "MULTI B1+B5: amount mismatch and ship-limit breach"
+  },
+  {
+   "order": {
+    "order_id": "0030d783f979fbc5981e75613b057344",
+    "customer_id": "84ddc138522822dfb51b603c2f466a18",
+    "customer_state": "RJ",
+    "purchase_date": "2017-11-24",
+    "approved_date": "2017-11-24",
+    "status": "delivered",
+    "payments": [
+     {
+      "type": "credit_card",
+      "sequential": 1,
+      "installments": 7,
+      "value": 78.27
+     }
+    ],
+    "items": [
+     {
+      "price": 60.6,
+      "freight": 17.67,
+      "seller_id": "8e6cc767478edae941d9bd9eb778d77a",
+      "shipping_limit_date": "2017-11-29"
+     }
+    ],
+    "delivered_carrier_date": "2017-12-15",
+    "delivered_customer_date": "2018-01-06",
+    "estimated_delivery_date": "2017-12-15"
+   },
+   "expected_codes": [
+    "B4",
+    "B5"
+   ],
+   "expected_route": "MONITOR",
+   "expected_action": "LOG_SLA_BREACH",
+   "note": "MULTI B4+B5: late delivery and ship-limit breach"
+  }
+ ],
+ "count": 28,
+ "note": "Labels verified against the raw Olist rows printed by this script. B7/B8 entries are synthetic \u2014 the corpus contains zero duplicate payment sequences and zero orphan records."
+}

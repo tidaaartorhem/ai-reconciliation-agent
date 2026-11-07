@@ -1,6 +1,6 @@
 {
  "repo": "tidaaartorhem/ai-reconciliation-agent",
- "git_sha": "unknown",
- "built_utc": "2026-11-07T13:54:13Z",
+ "git_sha": "1cba566",
+ "built_utc": "2026-11-07T13:58:47Z",
  "pipeline": "recondesk LangGraph intake->reconcile->score->route->draft->gate (zero LLM calls)"
 }

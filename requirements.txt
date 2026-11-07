@@ -1,0 +1,6 @@
+# ReconDesk: deterministic LangGraph pipeline that reconciles billing,
+# order book, and warehouse records for Northgate Marketplace.
+# The pipeline uses langgraph when installed and falls back to the same
+# nodes run sequentially.
+pytest>=8.0
+langgraph>=0.2

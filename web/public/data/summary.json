@@ -1,0 +1,161 @@
+{
+ "findings": {
+  "close_date": "2018-01-05",
+  "window": "2017-10-01 .. 2017-12-31",
+  "queue_orders": 150,
+  "window_orders": 17848,
+  "window_total_brl": 2852962.16,
+  "window_break_orders": 2702,
+  "breaks_by_code": {
+   "B1": 8,
+   "B2": 74,
+   "B3": 67,
+   "B4": 5,
+   "B5": 9
+  },
+  "routes": {
+   "ESCALATE": 27,
+   "REVIEW": 123
+  },
+  "actions": {
+   "CHASE_WAREHOUSE": 67,
+   "ISSUE_REFUND": 74,
+   "LOG_SLA_BREACH": 1,
+   "POST_CORRECTION": 8
+  },
+  "money_at_stake_brl": 39549.47,
+  "money_by_code_brl": {
+   "B1": 289.8,
+   "B2": 17671.22,
+   "B3": 21588.45
+  },
+  "corpus": {
+   "orders": 99441,
+   "payments_rows": 103886,
+   "items_rows": 112650,
+   "breaks_by_code": {
+    "B1": 637,
+    "B2": 622,
+    "B3": 611,
+    "B4": 6534,
+    "B5": 5662,
+    "B6": 1
+   },
+   "duplicate_payment_orders": 0,
+   "orphan_payments": 0,
+   "orphan_items": 0,
+   "source": "Olist Brazilian E-Commerce (Kaggle, CC BY 4.0) via github.com/olist/work-at-olist-data",
+   "window_note": "Full corpus spans Sep 2016 \u2013 Oct 2018; the desk replays Q4 2017."
+  },
+  "top_breaks": [
+   {
+    "order_id": "8b7fd198ad184563c231653673e75a7f",
+    "score": 61,
+    "route": "REVIEW",
+    "break_codes": [
+     "B1",
+     "B4",
+     "B5"
+    ],
+    "money_at_stake": 7.64,
+    "status": "delivered"
+   },
+   {
+    "order_id": "5f416901ed4850dea2341b0c8cf6fde7",
+    "score": 52,
+    "route": "ESCALATE",
+    "break_codes": [
+     "B2"
+    ],
+    "money_at_stake": 898.51,
+    "status": "canceled"
+   },
+   {
+    "order_id": "66b7aa4a53c5c138ffe0aa7ac74dbea1",
+    "score": 52,
+    "route": "ESCALATE",
+    "break_codes": [
+     "B2"
+    ],
+    "money_at_stake": 739.42,
+    "status": "canceled"
+   },
+   {
+    "order_id": "eea28ef28b84c9907e7417c41813bd34",
+    "score": 52,
+    "route": "ESCALATE",
+    "break_codes": [
+     "B2"
+    ],
+    "money_at_stake": 920.05,
+    "status": "canceled"
+   },
+   {
+    "order_id": "fd4c3a2912e854eedd463b329540da4b",
+    "score": 52,
+    "route": "ESCALATE",
+    "break_codes": [
+     "B2"
+    ],
+    "money_at_stake": 1395.76,
+    "status": "canceled"
+   }
+  ],
+  "estimated_hours": 37.5
+ },
+ "eval": {
+  "golden_n": 28,
+  "code_accuracy": 1.0,
+  "route_accuracy": 1.0,
+  "action_accuracy": 1.0
+ },
+ "eval_misses": [],
+ "config": {
+  "escalate_score": 75,
+  "review_score": 40,
+  "escalate_money_brl": 500.0,
+  "base_score": {
+   "B1": 10,
+   "B2": 45,
+   "B3": 40,
+   "B4": 8,
+   "B5": 5,
+   "B6": 45,
+   "B7": 30,
+   "B8": 25
+  },
+  "close_date": "2018-01-05",
+  "tolerance_brl": 0.01,
+  "note": "Score = sum of break bases (+ B1 delta / B4 days / B5 days extras) + age (0-10) + value (0/5/10), capped at 100."
+ },
+ "company": "Northgate Marketplace",
+ "queue_meta": {
+  "window": "2017-10-01 .. 2017-12-31",
+  "close_date": "2018-01-05",
+  "company": "Northgate Marketplace",
+  "currency": "BRL",
+  "window_orders": 17848,
+  "window_total_brl": 2852962.16,
+  "window_break_orders": 2702,
+  "queue_n": 150,
+  "corpus": {
+   "orders": 99441,
+   "payments_rows": 103886,
+   "items_rows": 112650,
+   "breaks_by_code": {
+    "B1": 637,
+    "B2": 622,
+    "B3": 611,
+    "B4": 6534,
+    "B5": 5662,
+    "B6": 1
+   },
+   "duplicate_payment_orders": 0,
+   "orphan_payments": 0,
+   "orphan_items": 0,
+   "source": "Olist Brazilian E-Commerce (Kaggle, CC BY 4.0) via github.com/olist/work-at-olist-data",
+   "window_note": "Full corpus spans Sep 2016 \u2013 Oct 2018; the desk replays Q4 2017."
+  }
+ },
+ "data_note": "Three systems from the real Olist Brazilian E-Commerce dataset (Kaggle, CC BY 4.0): billing = order_payments, order book = orders + customers, warehouse = order_items plus delivery dates. Full corpus: 99,441 orders. The desk replays Q4 2017 purchases (17,848 orders, R$ 2,852,962.16) with the close as of 2018-01-05; the web queue is the top 150 break orders by score. B7/B8 have zero real cases in the corpus, so their golden-set and vector entries are synthetic and labeled as such. Money is BRL."
+}

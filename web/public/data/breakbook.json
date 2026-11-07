@@ -1,0 +1,52 @@
+{
+ "breaks": [
+  {
+   "code": "B1",
+   "name": "Amount mismatch",
+   "systems": "billing vs warehouse",
+   "what": "The payments ledger and the warehouse invoice disagree on the order total by at least one cent."
+  },
+  {
+   "code": "B2",
+   "name": "Canceled but paid",
+   "systems": "crm vs billing",
+   "what": "The order was canceled, but the payment was captured and never refunded."
+  },
+  {
+   "code": "B3",
+   "name": "Paid but never shipped",
+   "systems": "billing vs warehouse",
+   "what": "Money was captured and the order book has the order, but the warehouse has no items for it at all."
+  },
+  {
+   "code": "B4",
+   "name": "Late delivery",
+   "systems": "warehouse vs crm",
+   "what": "The customer received the order after the estimated delivery date the order book promised."
+  },
+  {
+   "code": "B5",
+   "name": "Shipped after the limit date",
+   "systems": "warehouse vs crm",
+   "what": "The parcel reached the carrier after the seller's shipping-limit date for one of its items."
+  },
+  {
+   "code": "B6",
+   "name": "Delivered but unpaid",
+   "systems": "crm vs billing",
+   "what": "The order was delivered, but the payments ledger has no payment for it."
+  },
+  {
+   "code": "B7",
+   "name": "Duplicate payment",
+   "systems": "billing",
+   "what": "The same payment sequence number appears twice on one order \u2014 the customer may have been charged twice."
+  },
+  {
+   "code": "B8",
+   "name": "Orphan record",
+   "systems": "billing / warehouse vs crm",
+   "what": "A payment or an item references an order_id that exists in no other system."
+  }
+ ]
+}
